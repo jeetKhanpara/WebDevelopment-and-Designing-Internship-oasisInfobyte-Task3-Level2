@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Todo List webapp</title>
+  <link rel="stylesheet" href="todo.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- icon -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <div class="task-input">
+
+      <input type="text" placeholder="Add a task and prepare yourself">
+
+    </div>
+
+    <div class="controls">
+
+      <button class="clear-btn">Remove All</button>
+
+      <div class="filters">
+
+        <span id="completed">Completed</span>
+        <span id="pending">Pending</span>
+        <span class="active" id="all">All</span>
+
+      </div>
+
+    </div>
+
+    <ul class="task-box"></ul>
+
+  </div>
+
+  <script src="todo.js"></script>
+
+</body>
+
+</html>
